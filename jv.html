@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jv.css">
+</head>
+
+<body>
+    <label>First name</label>
+    <br>
+    <input id="fname" type='number' placeholder="Enter your math number should be less than or equal to 100">
+    <br> <label>First name</label>
+    <br>
+    <input id="lname" type="number" placeholder="Enter your physics number">
+    <br>
+    <br>
+    <input id="mname" type="number" placeholder="Enter your English number">
+    <br>
+    <br>
+    <input id="nname" type="number" placeholder="Enter your Biology number">
+    <br>
+    <button onclick="run()">Submit</button>
+    Total <p id="result"></p>
+   Percentage <p id="Percentage"></p>
+    <script>
+        function run() {
+
+            let fname = parseInt(document.getElementById("fname").value)
+            if (fname > 100) {
+                alert('Plz less math marks less than 100')
+                return
+            }
+            let lname = parseInt(document.getElementById("lname").value)
+            let mname = parseInt(document.getElementById("mname").value)
+            let nname = parseInt(document.getElementById("nname").value)
+            let total = (fname + lname + mname + nname)
+    //         if (!total) {
+    //             alert('plz enter number')
+    //         }
+
+    //         let Percentage = (total / 550) * 100
+    // if (Percentage < 30) {
+    //             document.getElementById("result").innerHTML = 'Fail';
+    //             return
+    //         }
+
+            document.getElementById("result").innerHTML = total;
+            // document.getElementById("Percentage").innerHTML = Percentage + '%'
+
+            //     ;
+        }
+
+
+    </script>
+    <!-- <section id="main">
+        <div class="mnu">
+            
+                <label>First Name:</label>
+                <br>
+                <input id="fgm1" type="text" placeholder="Enter your first name">
+                <br>
+                <label>Last name:</label>
+                <br>
+                <input id="fgm2" type="text" placeholder="Enter your last name">
+                <br>
+                <label>Email:</label>
+                <br>
+                <input id="fgm3" type="text" placeholder="Enter your email address">
+                <br>
+                <label>Password:</label>
+                <br>
+                <input id="fgm4" type="Password" placeholder=" Password">
+                <br>
+                <label>Known languages:</label>
+                <br>
+                <input id="fgm5" type="checkbox" id="laguages">English
+                <input id="fgm6" type="checkbox" id="laguages">Urdu
+                <input id="fgm7" type="checkbox" id="laguages">Arabic
+                <br>
+                <br>
+                <input id="fgm8" type="radio" id="Gender">Male
+                <input id="fgm9" type="radio" id="Gender">Female
+                <br>
+                <label>Experience:</label>
+                <br>
+                <input id="fgm10" type="text" placeholder="Experience">
+                <br>
+                <br>
+                <select name="city">
+                    <option value="Faisalabad">Faisalabad</option>
+                    <option value="Faisalabad">Islamabad</option>
+                    <option value="Faisalabad">Lahore</option>
+                    <option value="Faisalabad">Karachi</option>
+                </select>
+                <br>
+                <br>
+                <button>Submit</button>
+            
+        </div>
+    </section>
+    <script>
+         <button onclick="run()">Submit</button>
+         function run() {
+            let fgm1 = parseInt(document.getElementById("fgm1").value)
+            let fgm2 = parseInt(document.getElementById("fgm2").value)
+            let fgm3 = parseInt(document.getElementById("fgm3").value)
+         }
+        let fgm1 = parseInt(document.getElementById("fgm1").value)
+        let fgm2 = parseInt(document.getElementById("fgm2").value)
+        let fgm3 = parseInt(document.getElementById("fgm3").value)
+
+    </script>
+</body>
+
+</html> -->

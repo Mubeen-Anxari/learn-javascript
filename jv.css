@@ -1,0 +1,25 @@
+#main{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.mnu{
+   background-color: aqua;
+}
+input{
+   font-style: oblique;
+   padding-left: 5px;
+}
+label{
+   font-style: italic;
+   font-size: 20px;
+   padding-left: 5px;
+}
+input:hover{
+   background-color: brown;
+}
+button{
+   background-color: orangered;
+   width: 70px;
+   height: 30px;
+}

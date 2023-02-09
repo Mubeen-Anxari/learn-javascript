@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="inputdata" id="inputdata" placeholder="Enter your name">
+    <br>
+    <br>
+    <input type="number" id="fgm1" placeholder="Enter your Age">
+    <br>
+
+    
+    <button onclick="demo()">click</button>
+
+
+
+    <script>
+        function demo() {
+            var final_data = document.getElementById("inputdata").value
+            var final_data = document.getElementById("fgm1").value
+            var total = (inputdata + fgm1)
+            document.getElementById("target").innerHTML = total;
+        }
+       
+    </script>
+
+
+
+     <p id="target"></p>
+
+    
+</body>
+
+</html>
