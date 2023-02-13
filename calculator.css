@@ -1,0 +1,131 @@
+body{
+    background-color: rgba(128, 126, 0, 0.815);
+}
+.fgm2{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px 0 red ;
+    height: 40px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    /* background-color: skyblue; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fgm1{
+    padding-top: 55px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    background-color: skyblue;
+}
+.fgm4{
+    /* padding-top: %; */
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    /* text-align: center; */
+    align-items: center;
+    text-align: center;
+    
+}
+.fgm3{
+    width: 50px;
+    height: 35px;
+    background-color: thistle;
+    display: flex;
+    /* text-align: center; */
+    /* padding-top: 17px; */
+    /* justify-self: unset; */
+    
+}
+.fgm5{
+    width: 45px;
+    height: 35px;
+    background-color: greenyellow;
+    display: flex;
+    /* text-align: center; */
+    /* justify-self: unset; */
+    /* padding-left: 17px;
+    padding-top: 17px; */
+    
+}
+.fgm6{
+    /* padding-top: %; */
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    /* text-align: center; */
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.fgm7{
+    width: 50px;
+    height: 35px;
+    background-color: thistle;
+    display: flex;
+}
+.fgm8{
+    width: 45px;
+    height: 35px;
+    background-color: greenyellow;
+    display: flex;
+}
+.fgm9{
+    /* padding-top: %; */
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    /* text-align: center; */
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.fgm10{
+    width: 50px;
+    height: 35px;
+    background-color: thistle;
+    display: flex;
+}
+.fgm11{
+    width: 45px;
+    height: 35px;
+    background-color: greenyellow;
+    display: flex;
+}
+.fgm12{
+    /* padding-top: %; */
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    /* text-align: center; */
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.fgm13{
+    width: 50px;
+    height: 35px;
+    background-color: pink;
+    display: flex;
+}
+.fgm14{
+    width: 50px;
+    height: 35px;
+    background-color: thistle;
+    display: flex;
+}
+.fgm15{
+    width: 45px;
+    height: 35px;
+    background-color: greenyellow;
+    display: flex;
+}
+
